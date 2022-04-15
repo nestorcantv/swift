@@ -88,3 +88,6 @@ nameOfIntegers
 for (key, value) in nameOfIntegers{
     print("\(key) - \(value)")
 }
+for (key, _) in nameOfIntegers{
+    print(key)
+}

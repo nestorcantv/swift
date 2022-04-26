@@ -65,3 +65,32 @@ let names = ["Amy", "Clara"]
 
 var addTwoDigits: (Int,Int)-> Int = { (a: Int, b: Int)->Int in return a + b }
 addTwoDigits(5, 6)
+
+var multipleSume: (Int...)-> Int = {(nums: Int...)->Int in
+    var finalCount = 0
+    for num in nums{
+        finalCount += num
+    }
+    return finalCount
+}
+multipleSume(5,6,7,8,9)
+var anotherOtherSum = multipleSume
+anotherOtherSum(5,6,2,4)
+let errorStatus = (404, "Page not found")
+let (numberCode, messageCode) = errorStatus
+switch errorStatus{
+case (errorStatus.0, _):
+    print("El numero del error es: \(errorStatus.0)")
+case (_ , errorStatus.1):
+    print(errorStatus.1)
+default:
+    print("El código del error no existe")
+}
+
+class SomeClass{
+    class func someMethod(){
+        print("hola")
+    }
+}
+
+SomeClass.someMethod()

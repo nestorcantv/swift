@@ -70,3 +70,43 @@ class Survey{
 }
 var q1 = Survey(question: "¿En que año fue la independencia de México?", answer: "1810")
 q1.response(ans: "1810")
+
+class Product{
+    var name: String
+    init?(name: String){
+        if name.isEmpty{
+            return nil
+        }
+        self.name = name
+    }
+}
+
+class ShopCar: Product{
+    var numberOfItems: Int
+    init?(name: String,
+         items: Int){
+        if items <= 0{
+            return nil
+        }
+        self.numberOfItems = items
+        super.init(name: name)
+    }
+}
+
+if let buy = ShopCar(name: "Perchero", items: 1){
+    print(buy.name, buy.numberOfItems)
+}
+
+
+class Player{
+    var life = 100
+    var name: String?
+    init(name: String) {
+        self.name = name
+    }
+    deinit {
+        self.life = 100
+    }
+}
+var player1: Player? = Player(name: "hola")
+player1?.name

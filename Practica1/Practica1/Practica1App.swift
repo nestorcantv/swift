@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct Practica1App: App {
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AddingTwoDigits()
         }
     }
 }

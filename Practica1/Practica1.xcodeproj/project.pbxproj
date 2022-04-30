@@ -11,6 +11,12 @@
 		04847535281A160B00CFC8A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04847534281A160B00CFC8A9 /* ContentView.swift */; };
 		04847537281A161C00CFC8A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04847536281A161C00CFC8A9 /* Assets.xcassets */; };
 		0484753A281A161C00CFC8A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04847539281A161C00CFC8A9 /* Preview Assets.xcassets */; };
+		04847541281B1BD100CFC8A9 /* textModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04847540281B1BD100CFC8A9 /* textModifier.swift */; };
+		04847545281B5E6A00CFC8A9 /* Botones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04847544281B5E6A00CFC8A9 /* Botones.swift */; };
+		04847549281B893C00CFC8A9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04847548281B893C00CFC8A9 /* CircleImage.swift */; };
+		0484754B281B8D6F00CFC8A9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484754A281B8D6F00CFC8A9 /* MapView.swift */; };
+		0484754D281C695000CFC8A9 /* ImagesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484754C281C694F00CFC8A9 /* ImagesTest.swift */; };
+		0484754F281CA91600CFC8A9 /* AddingTwoDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484754E281CA91600CFC8A9 /* AddingTwoDigits.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		04847534281A160B00CFC8A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04847536281A161C00CFC8A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04847539281A161C00CFC8A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04847540281B1BD100CFC8A9 /* textModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textModifier.swift; sourceTree = "<group>"; };
+		04847544281B5E6A00CFC8A9 /* Botones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Botones.swift; sourceTree = "<group>"; };
+		04847548281B893C00CFC8A9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		0484754A281B8D6F00CFC8A9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		0484754C281C694F00CFC8A9 /* ImagesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTest.swift; sourceTree = "<group>"; };
+		0484754E281CA91600CFC8A9 /* AddingTwoDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingTwoDigits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +63,16 @@
 		04847531281A160B00CFC8A9 /* Practica1 */ = {
 			isa = PBXGroup;
 			children = (
+				0484754E281CA91600CFC8A9 /* AddingTwoDigits.swift */,
 				04847532281A160B00CFC8A9 /* Practica1App.swift */,
 				04847534281A160B00CFC8A9 /* ContentView.swift */,
 				04847536281A161C00CFC8A9 /* Assets.xcassets */,
 				04847538281A161C00CFC8A9 /* Preview Content */,
+				04847540281B1BD100CFC8A9 /* textModifier.swift */,
+				04847544281B5E6A00CFC8A9 /* Botones.swift */,
+				04847548281B893C00CFC8A9 /* CircleImage.swift */,
+				0484754A281B8D6F00CFC8A9 /* MapView.swift */,
+				0484754C281C694F00CFC8A9 /* ImagesTest.swift */,
 			);
 			path = Practica1;
 			sourceTree = "<group>";
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				04847535281A160B00CFC8A9 /* ContentView.swift in Sources */,
+				0484754B281B8D6F00CFC8A9 /* MapView.swift in Sources */,
 				04847533281A160B00CFC8A9 /* Practica1App.swift in Sources */,
+				0484754D281C695000CFC8A9 /* ImagesTest.swift in Sources */,
+				04847545281B5E6A00CFC8A9 /* Botones.swift in Sources */,
+				0484754F281CA91600CFC8A9 /* AddingTwoDigits.swift in Sources */,
+				04847541281B1BD100CFC8A9 /* textModifier.swift in Sources */,
+				04847549281B893C00CFC8A9 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

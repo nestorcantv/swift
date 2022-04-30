@@ -6,11 +6,23 @@
 //
 
 import SwiftUI
-
+var someText = "BOXHA KAL-LE"
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            MapView().frame(height: 300)
+            CircleImage().offset(y: -130).padding(.bottom, -130)
+        VStack(alignment: .leading) {
+            Text(someText)
+                .font(.title)
+            HStack {
+                Text("Joshue Tree National Park").font(.subheadline)
+                Spacer()
+                Text("California").font(.subheadline)
+            }
+        }
+        .padding()
+        }
     }
 }
 

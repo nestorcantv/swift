@@ -10,8 +10,13 @@ import SwiftUI
 struct AddingTwoDigits: View {
     @State var texty = ""
     var body: some View {
+        
         VStack{
-            
+            TabView{
+                ImagesTest().tabItem({
+                    Text("TabView")
+                    Image(systemName: "turtlerock")
+                })
             Text("Suma de dos Dígitos").font(.title).padding()
             HStack{
                 Text(texty)
@@ -19,6 +24,7 @@ struct AddingTwoDigits: View {
             }
             TextField("Campo", text: $texty).font(.headline)
             
+            }
         }
     }
 }

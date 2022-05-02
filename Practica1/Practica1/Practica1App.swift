@@ -12,7 +12,7 @@ struct Practica1App: App {
 
     var body: some Scene {
         WindowGroup {
-            AddingTwoDigits()
+            VideoPlayerRep()
         }
     }
 }

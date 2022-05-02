@@ -17,6 +17,8 @@
 		0484754B281B8D6F00CFC8A9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484754A281B8D6F00CFC8A9 /* MapView.swift */; };
 		0484754D281C695000CFC8A9 /* ImagesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484754C281C694F00CFC8A9 /* ImagesTest.swift */; };
 		0484754F281CA91600CFC8A9 /* AddingTwoDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484754E281CA91600CFC8A9 /* AddingTwoDigits.swift */; };
+		04B4A926282059C800F02E11 /* Navigations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4A925282059C700F02E11 /* Navigations.swift */; };
+		04B4A9282820674000F02E11 /* VideoPlayerRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4A9272820674000F02E11 /* VideoPlayerRep.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		0484754A281B8D6F00CFC8A9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0484754C281C694F00CFC8A9 /* ImagesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTest.swift; sourceTree = "<group>"; };
 		0484754E281CA91600CFC8A9 /* AddingTwoDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingTwoDigits.swift; sourceTree = "<group>"; };
+		04B4A925282059C700F02E11 /* Navigations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigations.swift; sourceTree = "<group>"; };
+		04B4A9272820674000F02E11 /* VideoPlayerRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerRep.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 		04847531281A160B00CFC8A9 /* Practica1 */ = {
 			isa = PBXGroup;
 			children = (
+				04B4A925282059C700F02E11 /* Navigations.swift */,
+				04B4A9272820674000F02E11 /* VideoPlayerRep.swift */,
 				0484754E281CA91600CFC8A9 /* AddingTwoDigits.swift */,
 				04847532281A160B00CFC8A9 /* Practica1App.swift */,
 				04847534281A160B00CFC8A9 /* ContentView.swift */,
@@ -159,7 +165,9 @@
 				0484754B281B8D6F00CFC8A9 /* MapView.swift in Sources */,
 				04847533281A160B00CFC8A9 /* Practica1App.swift in Sources */,
 				0484754D281C695000CFC8A9 /* ImagesTest.swift in Sources */,
+				04B4A926282059C800F02E11 /* Navigations.swift in Sources */,
 				04847545281B5E6A00CFC8A9 /* Botones.swift in Sources */,
+				04B4A9282820674000F02E11 /* VideoPlayerRep.swift in Sources */,
 				0484754F281CA91600CFC8A9 /* AddingTwoDigits.swift in Sources */,
 				04847541281B1BD100CFC8A9 /* textModifier.swift in Sources */,
 				04847549281B893C00CFC8A9 /* CircleImage.swift in Sources */,
